@@ -1,0 +1,866 @@
+@font-face {
+  font-family: 'isak';
+  src:  url('../fonts/isak.eot?by8zgb');
+  src:  url('../fonts/isak.eot?by8zgb#iefix') format('embedded-opentype'),
+    url('../fonts/isak.ttf?by8zgb') format('truetype'),
+    url('../fonts/isak.woff?by8zgb') format('woff'),
+    url('../fonts/isak.svg?by8zgb#isak') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-isak-"], [class*=" icon-isak-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'isak' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-isak-snapchat:before {
+  content: "\ea0f";
+}
+.icon-isak-discord:before {
+  content: "\ea10";
+}
+.icon-isak-medium:before {
+  content: "\ea11";
+}
+.icon-isak-reddit:before {
+  content: "\ea12";
+}
+.icon-isak-github:before {
+  content: "\ea13";
+}
+.icon-isak-tiktok:before {
+  content: "\ea14";
+}
+.icon-isak-gear:before {
+  content: "\e913";
+}
+.icon-isak-close:before {
+  content: "\e914";
+}
+.icon-isak-global-elip:before {
+  content: "\e910";
+}
+.icon-isak-stack .path1:before {
+  content: "\e90b";
+  color: rgb(0, 0, 0);
+  opacity: 0.144;
+}
+.icon-isak-stack .path2:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.36;
+}
+.icon-isak-stack .path3:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.576;
+}
+.icon-isak-arrow-right-top:before {
+  content: "\e900";
+}
+.icon-isak-arrow-caret-left:before {
+  content: "\e901";
+}
+.icon-isak-arrow-caret-right:before {
+  content: "\e902";
+}
+.icon-isak-quote:before {
+  content: "\e903";
+}
+.icon-isak-user-circle:before {
+  content: "\e904";
+}
+.icon-isak-edu:before {
+  content: "\e905";
+}
+.icon-isak-arrow-top:before {
+  content: "\e906";
+}
+.icon-isak-send:before {
+  content: "\e907";
+}
+.icon-isak-tes:before {
+  content: "\e908";
+}
+.icon-isak-tech-stack:before {
+  content: "\e909";
+}
+.icon-isak-service:before {
+  content: "\e90a";
+}
+.icon-isak-high-light:before {
+  content: "\e90d";
+}
+.icon-isak-home:before {
+  content: "\e90e";
+}
+.icon-isak-light:before {
+  content: "\e90f";
+}
+.icon-isak-download:before {
+  content: "\e911";
+}
+.icon-isak-linkin:before {
+  content: "\e915";
+}
+.icon-isak-x:before {
+  content: "\e916";
+}
+.icon-isak-x1:before {
+  content: "\e917";
+}
+.icon-isak-hours:before {
+  content: "\e918";
+}
+.icon-isak-ambulance:before {
+  content: "\e919";
+}
+.icon-isak-ambulance1:before {
+  content: "\e91a";
+}
+.icon-isak-Artboard-1:before {
+  content: "\e91b";
+}
+.icon-isak-Artboard-2:before {
+  content: "\e91c";
+}
+.icon-isak-Artboard-3:before {
+  content: "\e91d";
+}
+.icon-isak-Artboard-4:before {
+  content: "\e91e";
+}
+.icon-isak-Artboard-5:before {
+  content: "\e91f";
+}
+.icon-isak-Artboard-6:before {
+  content: "\e920";
+}
+.icon-isak-Artboard-7:before {
+  content: "\e921";
+}
+.icon-isak-Artboard-8:before {
+  content: "\e922";
+}
+.icon-isak-Artboard-9:before {
+  content: "\e923";
+}
+.icon-isak-artboard-1:before {
+  content: "\e924";
+}
+.icon-isak-artboard-2:before {
+  content: "\e925";
+}
+.icon-isak-artboard-33:before {
+  content: "\e926";
+}
+.icon-isak-artboard-4:before {
+  content: "\e927";
+}
+.icon-isak-artboard-53:before {
+  content: "\e928";
+}
+.icon-isak-artboard-62:before {
+  content: "\e929";
+}
+.icon-isak-artboard-72:before {
+  content: "\e92a";
+}
+.icon-isak-artboard-8:before {
+  content: "\e92b";
+}
+.icon-isak-artboard-92:before {
+  content: "\e92c";
+}
+.icon-isak-Asset-1:before {
+  content: "\e92d";
+}
+.icon-isak-Asset-2:before {
+  content: "\e92e";
+}
+.icon-isak-Asset-3:before {
+  content: "\e92f";
+}
+.icon-isak-Asset-4:before {
+  content: "\e930";
+}
+.icon-isak-Asset-5:before {
+  content: "\e931";
+}
+.icon-isak-Asset-6:before {
+  content: "\e932";
+}
+.icon-isak-Asset-7:before {
+  content: "\e933";
+}
+.icon-isak-Asset-8:before {
+  content: "\e934";
+}
+.icon-isak-Asset-9:before {
+  content: "\e935";
+}
+.icon-isak-Asset-10:before {
+  content: "\e936";
+}
+.icon-isak-Asset-11:before {
+  content: "\e937";
+}
+.icon-isak-Asset-12:before {
+  content: "\e938";
+}
+.icon-isak-Asset-13:before {
+  content: "\e939";
+}
+.icon-isak-Asset-14:before {
+  content: "\e93a";
+}
+.icon-isak-Asset-15:before {
+  content: "\e93b";
+}
+.icon-isak-Asset-16:before {
+  content: "\e93c";
+}
+.icon-isak-bandage:before {
+  content: "\e93d";
+}
+.icon-isak-bed:before {
+  content: "\e93e";
+}
+.icon-isak-blood-plus-minus:before {
+  content: "\e93f";
+}
+.icon-isak-blood-pressure:before {
+  content: "\e940";
+}
+.icon-isak-blood:before {
+  content: "\e941";
+}
+.icon-isak-bottle:before {
+  content: "\e942";
+}
+.icon-isak-chemistry-glass:before {
+  content: "\e943";
+}
+.icon-isak-crutch:before {
+  content: "\e944";
+}
+.icon-isak-dna:before {
+  content: "\e945";
+}
+.icon-isak-doctor:before {
+  content: "\e946";
+}
+.icon-isak-doctor1:before {
+  content: "\e947";
+}
+.icon-isak-esearch:before {
+  content: "\e948";
+}
+.icon-isak-file:before {
+  content: "\e949";
+}
+.icon-isak-first-aid:before {
+  content: "\e94a";
+}
+.icon-isak-hand-sanitizer-wash:before {
+  content: "\e94b";
+}
+.icon-isak-hand-wash:before {
+  content: "\e94c";
+}
+.icon-isak-health:before {
+  content: "\e94d";
+}
+.icon-isak-heart-beat:before {
+  content: "\e94e";
+}
+.icon-isak-heart-monitor:before {
+  content: "\e94f";
+}
+.icon-isak-heart-monitor1:before {
+  content: "\e950";
+}
+.icon-isak-hospital-medical-bed:before {
+  content: "\e951";
+}
+.icon-isak-hospital:before {
+  content: "\e952";
+}
+.icon-isak-hospital1:before {
+  content: "\e953";
+}
+.icon-isak-ID:before {
+  content: "\e954";
+}
+.icon-isak-infused-blood:before {
+  content: "\e955";
+}
+.icon-isak-Line-01:before {
+  content: "\e956";
+}
+.icon-isak-Line-02:before {
+  content: "\e957";
+}
+.icon-isak-Line-03:before {
+  content: "\e958";
+}
+.icon-isak-Line-04:before {
+  content: "\e959";
+}
+.icon-isak-Line-05:before {
+  content: "\e95a";
+}
+.icon-isak-Line-06:before {
+  content: "\e95b";
+}
+.icon-isak-Line-07:before {
+  content: "\e95c";
+}
+.icon-isak-Line-08:before {
+  content: "\e95d";
+}
+.icon-isak-Line-09:before {
+  content: "\e95e";
+}
+.icon-isak-Line-10:before {
+  content: "\e95f";
+}
+.icon-isak-Line-11:before {
+  content: "\e960";
+}
+.icon-isak-Line-12:before {
+  content: "\e961";
+}
+.icon-isak-Line-13:before {
+  content: "\e962";
+}
+.icon-isak-Line-14:before {
+  content: "\e963";
+}
+.icon-isak-Line-15:before {
+  content: "\e964";
+}
+.icon-isak-Line-16:before {
+  content: "\e965";
+}
+.icon-isak-Line-17:before {
+  content: "\e966";
+}
+.icon-isak-Line-18:before {
+  content: "\e967";
+}
+.icon-isak-Line-19:before {
+  content: "\e968";
+}
+.icon-isak-line:before {
+  content: "\e969";
+}
+.icon-isak-magnify:before {
+  content: "\e96a";
+}
+.icon-isak-medical-bag:before {
+  content: "\e96b";
+}
+.icon-isak-medical-chart:before {
+  content: "\e96c";
+}
+.icon-isak-medical-document:before {
+  content: "\e96d";
+}
+.icon-isak-medical-id-card:before {
+  content: "\e96e";
+}
+.icon-isak-medical-report:before {
+  content: "\e96f";
+}
+.icon-isak-medical-report1:before {
+  content: "\e970";
+}
+.icon-isak-medicine-bottle:before {
+  content: "\e971";
+}
+.icon-isak-medicine-bowl:before {
+  content: "\e972";
+}
+.icon-isak-microscope:before {
+  content: "\e973";
+}
+.icon-isak-MRI:before {
+  content: "\e974";
+}
+.icon-isak-needle:before {
+  content: "\e975";
+}
+.icon-isak-no-smoke:before {
+  content: "\e976";
+}
+.icon-isak-nurse-man:before {
+  content: "\e977";
+}
+.icon-isak-nurse-woman:before {
+  content: "\e978";
+}
+.icon-isak-nurse:before {
+  content: "\e979";
+}
+.icon-isak-people-sick:before {
+  content: "\e97a";
+}
+.icon-isak-pharmacy:before {
+  content: "\e97b";
+}
+.icon-isak-phone2:before {
+  content: "\e97c";
+}
+.icon-isak-pill-tablet:before {
+  content: "\e97d";
+}
+.icon-isak-pill:before {
+  content: "\e97e";
+}
+.icon-isak-pills:before {
+  content: "\e97f";
+}
+.icon-isak-pipette:before {
+  content: "\e980";
+}
+.icon-isak-plaster:before {
+  content: "\e981";
+}
+.icon-isak-scale:before {
+  content: "\e982";
+}
+.icon-isak-shield:before {
+  content: "\e983";
+}
+.icon-isak-skull:before {
+  content: "\e984";
+}
+.icon-isak-stethoscope1:before {
+  content: "\e985";
+}
+.icon-isak-stethoscope2:before {
+  content: "\e986";
+}
+.icon-isak-stetoscope:before {
+  content: "\e987";
+}
+.icon-isak-surgical:before {
+  content: "\e988";
+}
+.icon-isak-syringe:before {
+  content: "\e989";
+}
+.icon-isak-thermometer:before {
+  content: "\e98a";
+}
+.icon-isak-vaccine:before {
+  content: "\e98b";
+}
+.icon-isak-water-bottle-glass:before {
+  content: "\e98c";
+}
+.icon-isak-wheel-chair:before {
+  content: "\e98d";
+}
+.icon-isak-address:before {
+  content: "\e98e";
+}
+.icon-isak-angle-down:before {
+  content: "\e98f";
+}
+.icon-isak-angles-left:before {
+  content: "\e990";
+}
+.icon-isak-angles-left1:before {
+  content: "\e991";
+}
+.icon-isak-arrow-right:before {
+  content: "\e992";
+}
+.icon-isak-atom-simple:before {
+  content: "\e993";
+}
+.icon-isak-calendar-day:before {
+  content: "\e994";
+}
+.icon-isak-chat:before {
+  content: "\e995";
+}
+.icon-isak-check:before {
+  content: "\e996";
+}
+.icon-isak-check1:before {
+  content: "\e997";
+}
+.icon-isak-chev-righ:before {
+  content: "\e998";
+}
+.icon-isak-chevron-left:before {
+  content: "\e999";
+}
+.icon-isak-chevron-right:before {
+  content: "\e99a";
+}
+.icon-isak-clock:before {
+  content: "\e99b";
+}
+.icon-isak-clock1:before {
+  content: "\e99c";
+}
+.icon-isak-comments:before {
+  content: "\e99d";
+}
+.icon-isak-contact:before {
+  content: "\e99e";
+}
+.icon-isak-envelope-open:before {
+  content: "\e99f";
+}
+.icon-isak-facebook:before {
+  content: "\e9a0";
+}
+.icon-isak-file-pdf:before {
+  content: "\e9a1";
+}
+.icon-isak-file-word:before {
+  content: "\e9a2";
+}
+.icon-isak-globe:before {
+  content: "\e9a3";
+}
+.icon-isak-group:before {
+  content: "\e9a4";
+}
+.icon-isak-headphones-simple:before {
+  content: "\e9a5";
+}
+.icon-isak-house:before {
+  content: "\e9a6";
+}
+.icon-isak-icon1:before {
+  content: "\e9a7";
+}
+.icon-isak-icon2:before {
+  content: "\e9a8";
+}
+.icon-isak-icon3:before {
+  content: "\e9a9";
+}
+.icon-isak-icon4:before {
+  content: "\e9aa";
+}
+.icon-isak-icon5:before {
+  content: "\e9ab";
+}
+.icon-isak-icon6:before {
+  content: "\e9ac";
+}
+.icon-isak-icon7:before {
+  content: "\e9ad";
+}
+.icon-isak-icon8:before {
+  content: "\e9ae";
+}
+.icon-isak-icon9:before {
+  content: "\e9af";
+}
+.icon-isak-icon10:before {
+  content: "\e9b0";
+}
+.icon-isak-icon11:before {
+  content: "\e9b1";
+}
+.icon-isak-icon12:before {
+  content: "\e9b2";
+}
+.icon-isak-icon13:before {
+  content: "\e9b3";
+}
+.icon-isak-icon14:before {
+  content: "\e9b4";
+}
+.icon-isak-icon15:before {
+  content: "\e9b5";
+}
+.icon-isak-icon16:before {
+  content: "\e9b6";
+}
+.icon-isak-icon17:before {
+  content: "\e9b7";
+}
+.icon-isak-icon18:before {
+  content: "\e9b8";
+}
+.icon-isak-icon19:before {
+  content: "\e9b9";
+}
+.icon-isak-icon20:before {
+  content: "\e9ba";
+}
+.icon-isak-icon21:before {
+  content: "\e9bb";
+}
+.icon-isak-icon22:before {
+  content: "\e9bc";
+}
+.icon-isak-icon23:before {
+  content: "\e9bd";
+}
+.icon-isak-icon24:before {
+  content: "\e9be";
+}
+.icon-isak-icon25:before {
+  content: "\e9bf";
+}
+.icon-isak-icon26:before {
+  content: "\e9c0";
+}
+.icon-isak-icon27:before {
+  content: "\e9c1";
+}
+.icon-isak-icon28:before {
+  content: "\e9c2";
+}
+.icon-isak-icon29:before {
+  content: "\e9c3";
+}
+.icon-isak-icon30:before {
+  content: "\e9c4";
+}
+.icon-isak-icon31:before {
+  content: "\e9c5";
+}
+.icon-isak-icon32:before {
+  content: "\e9c6";
+}
+.icon-isak-icon33:before {
+  content: "\e9c7";
+}
+.icon-isak-icon34:before {
+  content: "\e9c8";
+}
+.icon-isak-icon35:before {
+  content: "\e9c9";
+}
+.icon-isak-icon36:before {
+  content: "\e9ca";
+}
+.icon-isak-icon37:before {
+  content: "\e9cb";
+}
+.icon-isak-icon38:before {
+  content: "\e9cc";
+}
+.icon-isak-icon39:before {
+  content: "\e9cd";
+}
+.icon-isak-icon40:before {
+  content: "\e9ce";
+}
+.icon-isak-icon41:before {
+  content: "\e9cf";
+}
+.icon-isak-icon42:before {
+  content: "\e9d0";
+}
+.icon-isak-icon43:before {
+  content: "\e9d1";
+}
+.icon-isak-icon44:before {
+  content: "\e9d2";
+}
+.icon-isak-icon45:before {
+  content: "\e9d3";
+}
+.icon-isak-icon46:before {
+  content: "\e9d4";
+}
+.icon-isak-icon47:before {
+  content: "\e9d5";
+}
+.icon-isak-icon48:before {
+  content: "\e9d6";
+}
+.icon-isak-icon49:before {
+  content: "\e9d7";
+}
+.icon-isak-icon50:before {
+  content: "\e9d8";
+}
+.icon-isak-icon51:before {
+  content: "\e9d9";
+}
+.icon-isak-icon52:before {
+  content: "\e9da";
+}
+.icon-isak-icon53:before {
+  content: "\e9db";
+}
+.icon-isak-icon54:before {
+  content: "\e9dc";
+}
+.icon-isak-icon55:before {
+  content: "\e9dd";
+}
+.icon-isak-icon56:before {
+  content: "\e9de";
+}
+.icon-isak-icon57:before {
+  content: "\e9df";
+}
+.icon-isak-icon58:before {
+  content: "\e9e0";
+}
+.icon-isak-icon59:before {
+  content: "\e9e1";
+}
+.icon-isak-icon60:before {
+  content: "\e9e2";
+}
+.icon-isak-icon61:before {
+  content: "\e9e3";
+}
+.icon-isak-icon62:before {
+  content: "\e9e4";
+}
+.icon-isak-icon63:before {
+  content: "\e9e5";
+}
+.icon-isak-instagram:before {
+  content: "\e9e6";
+}
+.icon-isak-left:before {
+  content: "\e9e7";
+}
+.icon-isak-linkedin:before {
+  content: "\e9e8";
+}
+.icon-isak-location-dot:before {
+  content: "\e9e9";
+}
+.icon-isak-mail:before {
+  content: "\e9ea";
+}
+.icon-isak-minus:before {
+  content: "\e9eb";
+}
+.icon-isak-phone:before {
+  content: "\e9ec";
+}
+.icon-isak-phone1:before {
+  content: "\e9ed";
+}
+.icon-isak-phone3:before {
+  content: "\e9ee";
+}
+.icon-isak-phone4:before {
+  content: "\e9ef";
+}
+.icon-isak-plus:before {
+  content: "\e9f0";
+}
+.icon-isak-right:before {
+  content: "\e9f1";
+}
+.icon-isak-rocket-launch:before {
+  content: "\e9f2";
+}
+.icon-isak-sach:before {
+  content: "\e9f3";
+}
+.icon-isak-search:before {
+  content: "\e9f4";
+}
+.icon-isak-star:before {
+  content: "\e9f5";
+}
+.icon-isak-stethoscope:before {
+  content: "\e9f6";
+}
+.icon-isak-suitcase:before {
+  content: "\e9f7";
+}
+.icon-isak-tag:before {
+  content: "\e9f8";
+}
+.icon-isak-twitter:before {
+  content: "\e9f9";
+}
+.icon-isak-user:before {
+  content: "\e9fa";
+}
+.icon-isak-user-doctor:before {
+  content: "\e9fb";
+}
+.icon-isak-video:before {
+  content: "\e9fc";
+}
+.icon-isak-write:before {
+  content: "\e9fd";
+}
+.icon-isak-toggle-on:before {
+  content: "\e9fe";
+}
+.icon-isak-toggle-off:before {
+  content: "\e9ff";
+}
+.icon-isak-thumb-tack:before {
+  content: "\ea00";
+}
+.icon-isak-digg:before {
+  content: "\ea01";
+}
+.icon-isak-bitcoin:before {
+  content: "\ea02";
+}
+.icon-isak-slack:before {
+  content: "\ea03";
+}
+.icon-isak-cross:before {
+  content: "\ea04";
+}
+.icon-isak-skype:before {
+  content: "\ea05";
+}
+.icon-isak-youtube:before {
+  content: "\ea06";
+}
+.icon-isak-dribbble:before {
+  content: "\ea07";
+}
+.icon-isak-steam:before {
+  content: "\ea08";
+}
+.icon-isak-stackoverflow:before {
+  content: "\ea09";
+}
+.icon-isak-behance:before {
+  content: "\ea0a";
+}
+.icon-isak-vimeo:before {
+  content: "\ea0b";
+}
+.icon-isak-pinterest:before {
+  content: "\ea0c";
+}
+.icon-isak-google-plus:before {
+  content: "\ea0d";
+}
+.icon-isak-spotify:before {
+  content: "\ea0e";
+}
