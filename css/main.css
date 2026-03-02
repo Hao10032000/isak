@@ -73,7 +73,7 @@ sup {
   opacity: 0;
   visibility: hidden;
   z-index: 9999;
-  background: var(--black-6);
+  background: var(--black);
 }
 
 img,
@@ -203,6 +203,7 @@ p:last-of-type {
 
 blockquote {
    padding: 30px 21px 23px 50px !important;
+       border-radius: 16px;
   border: 1px solid var(--black-6) !important;
 }
 
@@ -1967,6 +1968,7 @@ button:hover {
   padding: 7px 0px;
   line-height: normal;
   transition: 0.3s ease-in-out;
+  color: var(--white);
 }
 
 #mainnav ul.sub-menu li.menu-item-has-children>a::after {
@@ -2531,6 +2533,7 @@ footer .widget.widget_nav_menu ul li a:hover {
   -ms-transition: 0.4s ease-in-out;
   -o-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
+  border-bottom: 1px solid var(--black-6);
 }
 
 #header.header-sticky .logo {
@@ -4523,7 +4526,7 @@ footer .widget.widget_rss ul ul li:first-child {
 
 .comment-respond input[type="email"],
 .comment-respond input[type="text"] {
-  padding: 11px 16px;
+  padding: 11px 0px;
   margin-bottom: 20px;
 }
 
@@ -4535,6 +4538,7 @@ footer .widget.widget_rss ul ul li:first-child {
 .comment-respond input::placeholder,
 .comment-respond textarea::placeholder {
   color: #9c9ea6;
+   font-size: 16px;
 }
 
 #commentform .wrap-input-submit input[type="submit"],
@@ -4560,7 +4564,6 @@ footer .widget.widget_rss ul ul li:first-child {
   display: flex;
   align-items: center;
   width: 100%;
-  margin-top: -22px;
   margin-bottom: 23px;
 }
 
@@ -4610,7 +4613,7 @@ footer .widget.widget_rss ul ul li:first-child {
 
 .comment-respond label {
   font-weight: 400;
-  color: #222;
+  color: var(--text);
 }
 
 .comment-respond input[type="submit"] {

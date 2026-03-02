@@ -67,49 +67,7 @@ $wp_customize->add_control(
             ) ,
     )
 );
-
-// Page Title Overlay
-$wp_customize->add_setting(
-    'page_title_background_color',
-    array(
-        'default'           => themesflat_customize_default('page_title_background_color'),
-        'sanitize_callback' => 'esc_attr',
-    )
-);
-$wp_customize->add_control( new themesflat_ColorOverlay(
-        $wp_customize,
-        'page_title_background_color',
-        array(
-            'label'         => esc_html__('Background Color', 'isak'),
-            'section'       => 'section_page_title',
-            'priority'      => 26
-        )
-    )
-);   
-
-$wp_customize->add_setting(
-    'page_title_background_color_opacity',
-    array(
-        'default'   =>  themesflat_customize_default('page_title_background_color_opacity'),
-        'sanitize_callback' => 'esc_attr',
-    )
-);
-$wp_customize->add_control( new themesflat_Slide_Control( $wp_customize,
-    'page_title_background_color_opacity',
-        array(
-            'type'      =>  'slide-control',
-            'section'   =>  'section_page_title',
-            'label'     =>  'Opacity for Background Color (%)',
-            'priority'  => 27,
-            'input_attrs' => array(
-                'min' => 0,
-                'max' => 100,
-                'step' => 1,
-            ),
-        )
-
-    )
-);  
+  
 
 // Box control
 $wp_customize->add_setting(

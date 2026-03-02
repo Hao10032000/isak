@@ -734,11 +734,13 @@ function themesflat_preload_hook(){
     <?php endif; ?>
 
     <div class="sidebar-tools pst-v1 global">
+         <?php if ( themesflat_get_opt( 'btn_darkmode') == 1 ) : ?>
         <div class="nav-top">
             <div class="tf-btn-icon toggle-switch-mode active">
                 <i class="icon icon-isak-light"></i>
             </div>
         </div>
+         <?php endif; ?>
         <?php if ( themesflat_get_opt( 'go_top') == 1 ) : ?>
             <div class="nav-bottom">
                 <a href="#" class="tf-btn-icon go-top">

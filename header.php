@@ -14,7 +14,7 @@ $blog_layout_sidebar = isset($_GET['sidebar_layout']) ? $_GET['sidebar_layout'] 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta
   name="description"
-  content="isak - Therapy & Counseling Psychologist WordPress Theme">
+  content="Isak - Personal Portfolio WordPress Theme">
 <link rel="profile" href="<?php echo THEMESFLAT_PROTOCOL ?>://gmpg.org/xfn/11">
 
 <?php wp_head(); ?>

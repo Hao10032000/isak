@@ -229,10 +229,12 @@
   }
 
      #themesflat-content {
-        padding-top: 50px;
+        padding-top: 0px;
         padding-bottom: 50px;
     }
-
+.logo-site .image-switch {
+    width: 40px;
+}
   .blog #themesflat-content,
   .error404 #themesflat-content,
   .single-post #themesflat-content,

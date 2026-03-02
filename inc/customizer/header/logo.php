@@ -68,29 +68,29 @@ $wp_customize->add_control(
 );
 
 // Logo Size    
-$wp_customize->add_setting(
-    'logo_width',
-    array(
-        'default'   =>  themesflat_customize_default('logo_width'),
-        'sanitize_callback' => 'esc_attr',
-    )
-);
-$wp_customize->add_control( new themesflat_Slide_Control( $wp_customize,
-    'logo_width',
-        array(
-            'type'      =>  'slide-control',
-            'section'   =>  'section_logo',
-            'label'     =>  'Logo Size Width(px)',
-            'priority'  => 3,
-            'input_attrs' => array(
-                'min' => 0,
-                'max' => 500,
-                'step' => 1,
-            ),
-        )
+// $wp_customize->add_setting(
+//     'logo_width',
+//     array(
+//         'default'   =>  themesflat_customize_default('logo_width'),
+//         'sanitize_callback' => 'esc_attr',
+//     )
+// );
+// $wp_customize->add_control( new themesflat_Slide_Control( $wp_customize,
+//     'logo_width',
+//         array(
+//             'type'      =>  'slide-control',
+//             'section'   =>  'section_logo',
+//             'label'     =>  'Logo Size Width(px)',
+//             'priority'  => 3,
+//             'input_attrs' => array(
+//                 'min' => 0,
+//                 'max' => 500,
+//                 'step' => 1,
+//             ),
+//         )
 
-    )
-);
+//     )
+// );
 
 // Logo Box control
 $wp_customize->add_setting(

@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @font-face {
     src:  url('../fonts/ApfelGrotezk-Regular.otf?gzlukr');
     font-family: "Apfel Grotezk";
@@ -199,7 +199,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-feature-settings: "zero";
-  font-family: 'Apfel Grotezk';
+  font-family: 'Inter';
 }
 body::-webkit-scrollbar {
   width: 4px;
@@ -4170,6 +4170,9 @@ button.animate-btn::after,
   opacity: 1;
   visibility: visible;
 }
+a.tf-btn-action:hover {
+    color: var(--black-72) !important;
+}
 .tf-btn-action:hover .ic-wrap:nth-child(3) .icon {
   transform: rotate(45deg);
 }
@@ -5000,6 +5003,7 @@ button.animate-btn::after,
   .section-testimonial .sw-main-image {
     max-width: 244px;
     margin: 0;
+            margin-bottom: 5px;
   }
 }
 @media (min-width: 1200px) {
@@ -5524,7 +5528,10 @@ button.animate-btn::after,
   top: 0;
   left: 0;
 }
-
+.wpcf7-submit {
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06) !important;
+    border: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
 .wg-work {
   padding: 4px;
   background-color: var(--white);
