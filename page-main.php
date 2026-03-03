@@ -151,15 +151,46 @@ $icon_map = [
                         <span class="dot"></span>
                         <span><?php echo esc_html($badge_text); ?></span>
                     </p>
-                    
-                    <h5 class="greeting letter-space--2 text-white animationtext clip">
-                        <?php 
-                        // Using wp_kses_post to allow basic HTML tags if user enters them
-                        // or just esc_html if you want plain text.
-                        echo wp_kses_post($title_text); 
-                        ?>
-                    </h5>
+<?php 
+// LẤY DỮ LIỆU TỪ DATABASE (Quan trọng nhất)
+$options = get_option('isak_sidebar_data'); 
 
+// 1. Gom các từ vào mảng
+$words = [
+    $options['word_1'] ?? '',
+    $options['word_2'] ?? '',
+    $options['word_3'] ?? ''
+];
+
+// 2. Lọc bỏ các ô trống
+$active_words = array_filter($words);
+
+// 3. Nếu trống hết thì hiện mặc định
+if (empty($active_words)) {
+    $active_words = ['Isak'];
+}
+
+$static_text = $options['static_text'] ?? 'Hey, I’m';
+?>
+
+<h5 class="greeting letter-space--2 text-white animationtext clip">
+    <?php echo esc_html($static_text); ?> 
+    
+    <span class="cd-words-wrapper">
+        <?php 
+        $count = 0;
+        foreach ($active_words as $word): 
+            $visibility = ($count === 0) ? 'is-visible' : 'is-hidden';
+        ?>
+            <span class="item-text <?php echo $visibility; ?>">
+                <?php echo esc_html($word); ?>
+            </span>
+        <?php 
+            $count++;
+        endforeach; 
+        ?>
+    </span>
+</h5>
                     <p class="introduce text-white-56 letter-space--05 text-body-3">
                         <?php echo nl2br(esc_html($desc_text)); ?>
                     </p>

@@ -3420,9 +3420,11 @@ article .entry-meta .meta-right li {
 
 .bg-404,
 .link-line .elementor-heading-title>a:after {
-  background: var(--black);
+      background: var(--black-56);
 }
-
+.class-name-page-home-background.dark-mode {
+    background-image: none !important;
+}
 .block-company-profile,
 .block-get-a-quote {
   z-index: 1;
@@ -10147,25 +10149,25 @@ button:hover {
     border: 1px solid var(--black-6);
     display: flex;
 }
-.blog .blog-archive .featured-post{
+.blog-archive .featured-post{
     position: relative;
     border-radius: 16px 0 0 16px;
     overflow: hidden;
     max-width: 250px;
 }
-.blog .blog-archive .featured-post img{
+ .blog-archive .featured-post img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-.blog .blog-archive .content-post {
+.blog-archive .content-post {
     padding: 24px;
     display: flex;
     flex-direction: column;
     gap: 0px;
     width: 100%;
 }
-.blog .blog-archive .content-post .meta-box {
+.blog-archive .content-post .meta-box {
     font-weight: normal;
     font-style: normal;
     font-size: 20px;
@@ -10173,7 +10175,7 @@ button:hover {
     line-height: 28px;
     letter-spacing: 0px;
 }
-.blog .blog-archive .content-post .entry-title {
+.blog-archive .content-post .entry-title {
     font-weight: 500;
     font-style: normal;
     font-size: 32px;
@@ -10183,7 +10185,7 @@ button:hover {
     display: -webkit-box;
     overflow: hidden;
 }
-.blog .blog-archive .content-post .tf-btn {
+.blog-archive .content-post .tf-btn {
     padding: 0px; 
     box-shadow: unset;
     background: unset;
@@ -10337,7 +10339,7 @@ button:hover {
 
 
 
-.blog .sidebar .widget,
+.sidebar .widget,
 .single-post .sidebar .widget {
      padding: 20px;
     border: 1px solid var(--black-6);

@@ -31,7 +31,7 @@ $wp_customize->add_control(
         $wp_customize,
         'white_color',
         array(
-            'label'         => esc_html__('White Color', 'isak'),
+            'label'         => esc_html__('Light Color', 'isak'),
             'section'       => 'color_general',
             'settings'      => 'white_color',
             'priority'      => 1
@@ -52,7 +52,7 @@ $wp_customize->add_control(
         $wp_customize,
         'black_color',
         array(
-            'label'         => esc_html__('Black Color', 'isak'),
+            'label'         => esc_html__('Dark Color', 'isak'),
             'section'       => 'color_general',
             'settings'      => 'black_color',
             'priority'      => 1

@@ -748,9 +748,7 @@ function themesflat_preload_hook(){
                 </a>
             </div>
         <?php endif; ?>
-    </div>
-
-         
+    </div>         
 <?php
     
     get_template_part( 'tpl/header/aside-toggler');

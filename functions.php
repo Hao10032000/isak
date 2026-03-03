@@ -292,6 +292,8 @@ function themesflat_scripts() {
     // Load the main js    
     wp_enqueue_script( 'themesflat-main', THEMESFLAT_LINK . 'js/main.js', array(),'2.0.4',true);
 
+     wp_enqueue_script( 'animation-change-text', THEMESFLAT_LINK . 'js/animation-change-text.js', array(),'2.0.4',true);
+
     if( is_rtl() ){
         wp_style_add_data( 'themesflat-main', 'rtl', 'replace' );
         wp_style_add_data( 'themesflat-responsive', 'rtl', 'replace' );
@@ -452,13 +454,20 @@ function isak_render_sidebar_settings_page() {
                     </td>
                 </tr>
 
-                <tr>
-                    <th scope="row"><label><?php esc_html_e('Greeting Title', 'isak'); ?></label></th>
-                    <td>
-                        <input type="text" name="isak_sidebar_data[title]" value="<?php echo esc_attr($options['title'] ?? 'Hey, I’m Isak'); ?>" class="large-text">
-                        <p class="description"><?php esc_html_e('The main greeting text.', 'isak'); ?></p>
-                    </td>
-                </tr>
+<tr>
+    <th scope="row"><label><?php esc_html_e('Greeting Configuration', 'isak'); ?></label></th>
+    <td>
+        <p><strong><?php esc_html_e('Static Text:', 'isak'); ?></strong></p>
+        <input type="text" name="isak_sidebar_data[static_text]" value="<?php echo esc_attr($options['static_text'] ?? 'Hey, I’m'); ?>" class="large-text" placeholder="e.g. Hey, I’m">
+        
+        <p style="margin-top: 15px;"><strong><?php esc_html_e('Animated Words:', 'isak'); ?></strong></p>
+        <input type="text" name="isak_sidebar_data[word_1]" value="<?php echo esc_attr($options['word_1'] ?? 'Isak'); ?>" class="regular-text" style="margin-bottom:5px;" placeholder="Word 1"><br>
+        <input type="text" name="isak_sidebar_data[word_2]" value="<?php echo esc_attr($options['word_2'] ?? 'Designer'); ?>" class="regular-text" style="margin-bottom:5px;" placeholder="Word 2"><br>
+        <input type="text" name="isak_sidebar_data[word_3]" value="<?php echo esc_attr($options['word_3'] ?? 'Developer'); ?>" class="regular-text" placeholder="Word 3">
+        
+        <p class="description"><?php esc_html_e('Customize the greeting and the words that rotate with the animation effect.', 'isak'); ?></p>
+    </td>
+</tr>
                 <tr>
                     <th scope="row"><label><?php esc_html_e('Description', 'isak'); ?></label></th>
                     <td>
