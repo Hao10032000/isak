@@ -54,6 +54,17 @@ if ( ! function_exists( 'themesflat_body_classes' ) ) {
 		$classes[] = $one_page;
 
 		/**
+		 * Dark Mode
+		 */
+		$page_dark_mode = '';
+		if (themesflat_get_opt('btn_darkmode') != 1) {
+		    $page_dark_mode = 'dark-mode';
+		} else {
+		    $page_dark_mode = 'dark-mode-on';
+		}
+		$classes[] = $page_dark_mode;
+
+		/**
 		 * Name Page
 		 */	  
 		 $slug = get_post_field( 'post_name', get_post() );  	
