@@ -441,7 +441,7 @@ function isak_render_sidebar_settings_page() {
                 <tr>
                     <th scope="row"><label><?php esc_html_e('Avatar URL', 'isak'); ?></label></th>
                     <td>
-                        <input type="text" name="isak_sidebar_data[avatar]" value="<?php echo esc_attr($options['avatar'] ?? 'http://127.0.0.1:5500/isak/assets/images/avatar/avatar.png'); ?>" class="large-text code">
+                        <input type="text" name="isak_sidebar_data[avatar]" value="<?php echo esc_attr($options['avatar'] ?? 'https://isak.autodealwordpress.com/wp-content/uploads/2026/03/avatar.webp'); ?>" class="large-text code">
                         <p class="description"><?php esc_html_e('Enter the full URL of your avatar image.', 'isak'); ?></p>
                     </td>
                 </tr>

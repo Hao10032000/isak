@@ -12,7 +12,7 @@ $logo_site_white = themesflat_get_opt('site_logo_white');
 $sidebar_data = get_option('isak_sidebar_data');
 
 // 2. Define Defaults (using Null Coalescing Operator)
-$avatar_url = $sidebar_data['avatar'] ?? 'http://127.0.0.1:5500/isak/assets/images/avatar/avatar.png';
+$avatar_url = $sidebar_data['avatar'] ?? 'https://isak.autodealwordpress.com/wp-content/uploads/2026/03/avatar.webp';
 $badge_text = $sidebar_data['badge'] ?? 'Available for Work';
 $title_text = $sidebar_data['title'] ?? 'Hey, I’m Isak';
 $desc_text  = $sidebar_data['desc'] ?? 'I help startups grow with smart design and no-code development, based in Cupertino, CA.';
@@ -224,11 +224,13 @@ $static_text = $options['static_text'] ?? 'Hey, I’m';
 
             <!-- Tool Sidebar -->
     <div class="sidebar-tools pst-v1">
+        <?php if ( themesflat_get_opt('btn_darkmode') == 1 ) :?>
         <div class="nav-top">
             <div class="tf-btn-icon toggle-switch-mode">
                 <i class="icon icon-isak-light"></i>
             </div>
         </div>
+        <?php endif;?>
         <?php
         wp_nav_menu([
             'theme_location' => 'one-page',
@@ -238,11 +240,14 @@ $static_text = $options['static_text'] ?? 'Hey, I’m';
             'depth'          => 1, 
         ]);
         ?>
+        <?php if ( themesflat_get_opt('go_top') == 1 ) :?>
         <div class="nav-bottom">
             <a href="#" class="tf-btn-icon go-top">
                 <i class="icon icon-isak-arrow-top"></i>
             </a>
         </div>
+        <?php endif;?>
+
     </div>
     <!-- /Tool Sidebar -->
 

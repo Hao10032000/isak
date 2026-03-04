@@ -252,17 +252,6 @@ blockquote a:hover {
   color: var(--primary);
 }
 
-blockquote cite,
-blockquote>p:last-of-type,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--primary);
-}
-
 blockquote h1,
 blockquote h2,
 blockquote h3,

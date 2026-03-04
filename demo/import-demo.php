@@ -9,7 +9,7 @@ function themesflat_import_files() {
            'import_file_url'            => esc_url(THEMESFLAT_LINK.'/demo/content.xml'),
             'import_widget_file_url'     => esc_url(THEMESFLAT_LINK.'/demo/widgets.wie'),
             'import_customizer_file_url' => esc_url(THEMESFLAT_LINK.'/demo/options.dat'),
-            'import_preview_image_url'   => esc_url(THEMESFLAT_LINK.'screenshot.png'),
+            'import_preview_image_url'   => esc_url(THEMESFLAT_LINK.'screenshot.jpg'),
             'import_notice'              => esc_html__( 'After you import this demo, you will have to setup the MailChimp form.', 'isak' ),
             'preview_url'                => esc_url('https://isak.autodealwordpress.com/'),
         ),
@@ -46,12 +46,13 @@ function themesflat_after_import_setup() {
     update_option( "elementor_space_between_widgets", "0" );
 
     $main_menu = get_term_by( 'name', 'main', 'nav_menu' );
-    $bottom_menu = get_term_by( 'name', 'menu bottom', 'nav_menu' );
+    $one_page_menu = get_term_by( 'name', 'One Page Menu', 'nav_menu' );
     set_theme_mod( 'nav_menu_locations', array(
             'primary' => $main_menu->term_id,
-            'bottom' => $bottom_menu->term_id
+            'one-page' => $one_page_menu->term_id
         )
     );
+
 
     $front_page_id = get_page_by_title( 'Home' );
     $blog_page_id  = get_page_by_title( 'Blog' );
